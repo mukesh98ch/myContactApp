@@ -4,12 +4,12 @@
     "slug": "myContacts",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/contacticon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/contactfront2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/contacticon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mukeshch98.myContacts"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/contacticon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b43a2c9d-2fc3-4963-a4fd-b88efe1aa1ef"
+      }
     }
   }
 }
