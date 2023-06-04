@@ -12,7 +12,7 @@ I can provide the steps for genrating apk file of myContacts app
 ```eas build -p android```
 Then take some time and apk genrates in expo website (we need login id and passwerd)
 
-Here is explanation of my whole code
+# Here is explanation of my whole code
 ## Development Tools
 # Expo CLI: A command-line tool for creating and managing Expo projects.
 ```npm i -g eas-cli expo-cli```
