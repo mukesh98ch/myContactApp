@@ -64,7 +64,8 @@ This will start the Metro bundler. we can run the app on an Android or iOS devic
 ## This app take permission for Allow Contacts from your Device.
 
 ## Compontents File Structure(IN App)
-1. App.js: The main entry point of the application. It manages the state, fetches contacts, and renders the search input, contact list, and contact popup components.
+# 1. App.js:
+ The main entry point of the application. It manages the state, fetches contacts, and renders the search input, contact list, and contact popup components.
 
 Explanation of index.js:-
 The code represents the main component of the application (App). Let's break it down:
@@ -105,7 +106,7 @@ Finally, the styles for the components are defined using the StyleSheet.create m
 
 ## Components Folder Files
 
-1. ContactList.js: Renders the contact list based on the provided contacts array. It maps each contact to a contact item component.
+# 1. ContactList.js: Renders the contact list based on the provided contacts array. It maps each contact to a contact item component.
 
 Explanation of ContactList.js:-
 This code defines the ContactList component, which is responsible for rendering the list of contacts.
@@ -128,7 +129,7 @@ This code defines the ContactList component, which is responsible for rendering 
      function to generate a Text component for each phone number. The key prop is set to the index value to ensure unique keys for each item.
 
 
-2. ContactPopup.js: Renders the contact popup with detailed contact information when a contact is selected. It receives the selected contact as a prop and provides a dismiss button to close the popup.
+# 2. ContactPopup.js: Renders the contact popup with detailed contact information when a contact is selected. It receives the selected contact as a prop and provides a dismiss button to close the popup.
 
 Explanation of ContactPopup.js:-
 
