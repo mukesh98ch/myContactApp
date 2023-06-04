@@ -4,7 +4,7 @@ This is a simple React Native application that displays a list of contacts and a
 
 ## Note: My App is Working but i am facing some issues with my laptop and code editor so i can't provide apk link but I can give working video link and photos of my app.
 https://drive.google.com/file/d/132-hpcb98dR52xA3h8PYXdXZevNY-D6H/view?usp=sharing
-
+(Below i have given the photo of the QR code, by scanning which you can see the app)
 ## I know how to genrate apk in expo-cli and in react-native-cli. (Below are the given working photos of my app)
 
 I can provide the steps for genrating apk file of myContacts app 
@@ -168,3 +168,4 @@ Explanation of ContactPopup.js:-
 ![AllContacts](https://github.com/mukesh98ch/myContactApp/assets/122161959/fa1ed035-86f7-46e6-9da5-d2f43a39c497)
 ![SearchContact](https://github.com/mukesh98ch/myContactApp/assets/122161959/cf7a3e06-f3b4-4e35-b834-c751c70f0a89)
 ![Dissmissbtn](https://github.com/mukesh98ch/myContactApp/assets/122161959/3852952b-3ac1-48be-ba89-0d30706d55d2)
+![Safeimagekit-resized-img](https://github.com/mukesh98ch/myContactApp/assets/122161959/9c489351-1081-4386-9375-01881ba85489)
