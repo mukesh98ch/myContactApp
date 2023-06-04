@@ -69,12 +69,16 @@ This will start the Metro bundler. we can run the app on an Android or iOS devic
 Explanation of index.js:-
 The code represents the main component of the application (App). Let's break it down:
 (a). The code begins with importing various components, libraries, and styles required for the application.
+
 (b). The App component is defined as a functional component using the useState and useEffect hooks.
+
 (c). Inside the App component, state variables are declared using the useState hook. These variables are:
                 searchQuery: Stores the value of the search query entered by the user.
                 contacts: Stores the list of contacts, initially populated with data from contactsData (a temporary data source).
                 selectedContact: Stores the currently selected contact for displaying the contact popup.
+                
 (d). The useEffect hook is used to fetch the contacts when the component mounts. It calls the fetchContacts function.
+
 (e). The fetchContacts function is an asynchronous function that requests permission to access contacts using the Contacts.requestPermissionsAsync method. If the permission is granted, it retrieves the contacts using Contacts.getContactsAsync. The fetched contacts are then stored in the contacts state variable. Finally, the loading state is set to false.
 
 (f). The searchContacts function filters the contacts based on the search query entered by the user. It uses the Array.filter method to check if the contact's name includes the search query. The contacts are also sorted alphabetically using the Array.sort method and localeCompare function.
@@ -107,8 +111,11 @@ Explanation of ContactList.js:-
 This code defines the ContactList component, which is responsible for rendering the list of contacts.
 
 (a). contacts: This prop represents the array of contacts to be rendered.
+
 (b). openContactPopup: This prop is a callback function that is called when a contact is pressed. It is used to open the contact popup and display the details of the selected contact.
+
 (c). The component defines a function renderContacts that maps over the contacts array and generates a TouchableOpacity component for each contact.
+
 (d). Inside each TouchableOpacity:
      Animatable.View: This component wraps the Feather icon from the @expo/vector-icons package. It applies an animation effect to the icon using 
      the pulse animation from react-native-animatable library. The animation is set to loop infinitely.
@@ -126,12 +133,19 @@ This code defines the ContactList component, which is responsible for rendering 
 Explanation of ContactPopup.js:-
 
 (a). selectedContact: This prop represents the currently selected contact. It is used to conditionally render the popup based on whether a contact is selected or not.
+
 (b). closeContactPopup: This prop is a callback function that is called when the user dismisses the contact popup. It is used to close the popup and clear the selected contact.
+
 (c). The visible prop is set to selectedContact !== null to show the popup only when a contact is selected.
+
 (d). popupContactName: This Text component displays the name of the selected contact. The text is obtained from selectedContact?.name, which uses optional chaining to handle cases where selectedContact is null or undefined.
+
 (e). popupPhoneNumber: This Text component renders each phone number associated with the selected contact. It uses the map function to iterate over the phoneNumbers array and generates a Text component for each phone number. The key prop is set to the index value to ensure unique keys for each item.
+
 (f). dismissButton: This TouchableOpacity component is a button that triggers the closeContactPopup callback when pressed. It has a background color, padding, borderRadius, and marginTop defined by the styles.dismissButton style.
+
 (g). dismissButtonText: This Text component displays the text "Dismiss" inside the dismiss button. It has a white color defined by the styles.dismissButtonText style.
+
 (h). the values are defined using the responsiveFontSize, responsiveHeight, and responsiveWidth functions provided by the react-native-responsive-dimensions library. These functions allow for responsive styling based on the device's screen dimensions.
 
 
