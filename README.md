@@ -61,7 +61,7 @@ This will start the Metro bundler. we can run the app on an Android or iOS devic
 ```npm i react-native-responsive-dimensions```
 
 
-## This app take permission for Allow Contacts from your Device beacuse of API
+## This app take permission for Allow Contacts from your Device.
 
 ## Compontents File Structure(IN App)
 1. App.js: The main entry point of the application. It manages the state, fetches contacts, and renders the search input, contact list, and contact popup components.
@@ -144,3 +144,12 @@ Explanation of ContactPopup.js:-
 1. App icon
 2. App name
 3. splash images
+
+## If you want to see my app than please intall expo-go app from play store and scan the given QR code.
+![myContact App QR Code](https://github.com/mukesh98ch/myContactApp/assets/122161959/407a19c7-a8c6-4eb8-8c26-34b5341f0b87)
+
+## Working App Photo(Contact Data is just for understanding the features of app)
+![Start1](https://github.com/mukesh98ch/myContactApp/assets/122161959/cc7190e6-6c51-4f95-930d-1abfb7d0dc58)
+![AllContacts](https://github.com/mukesh98ch/myContactApp/assets/122161959/fa1ed035-86f7-46e6-9da5-d2f43a39c497)
+![SearchContact](https://github.com/mukesh98ch/myContactApp/assets/122161959/cf7a3e06-f3b4-4e35-b834-c751c70f0a89)
+![Dissmissbtn](https://github.com/mukesh98ch/myContactApp/assets/122161959/3852952b-3ac1-48be-ba89-0d30706d55d2)
