@@ -164,8 +164,9 @@ Explanation of ContactPopup.js:-
 ![myContact App QR Code](https://github.com/mukesh98ch/myContactApp/assets/122161959/407a19c7-a8c6-4eb8-8c26-34b5341f0b87)
 
 ## Working App Photo(Contact Data is just for understanding the features of app)
-
-![Safeimagekit-resized-img](https://github.com/mukesh98ch/myContactApp/assets/122161959/9c489351-1081-4386-9375-01881ba85489)
-![Safeimagekit-resized-img (1)](https://github.com/mukesh98ch/myContactApp/assets/122161959/93d107ad-e11a-4fff-80ed-51cef0c34d7e)
-![Safeimagekit-resized-img (2)](https://github.com/mukesh98ch/myContactApp/assets/122161959/b0cdd71a-0e26-4a18-b59a-d5058629956a)
 ![Safeimagekit-resized-img (3)](https://github.com/mukesh98ch/myContactApp/assets/122161959/2457bb9b-450c-4b3c-8866-9e794de7f962)
+
+![Safeimagekit-resized-img (1)](https://github.com/mukesh98ch/myContactApp/assets/122161959/93d107ad-e11a-4fff-80ed-51cef0c34d7e)
+![Safeimagekit-resized-img](https://github.com/mukesh98ch/myContactApp/assets/122161959/9c489351-1081-4386-9375-01881ba85489)
+![Safeimagekit-resized-img (2)](https://github.com/mukesh98ch/myContactApp/assets/122161959/b0cdd71a-0e26-4a18-b59a-d5058629956a)
+
